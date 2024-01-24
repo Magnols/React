@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="src/styles/vars.css">
     <link rel="stylesheet" href="src/styles/sidebar.css">
     <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/main.css">
 </head>
 
 <body>
@@ -73,6 +75,41 @@
             </div>
         </div>
     </div>
+    <main>
+        <div class="main-container">
+            <nav class="header__navegation">
+                <div class="navegation">
+                    <button class="arrow-left">
+                        <img src="src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+
+                <div class="header__search">
+                    <img src="src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir">
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+            <div class="playlist-container">
+                <div id="result-playlists">
+                    <div class="playlist">
+                        <h1 id="greeting">Boa tarde</h1>
+                        <h1 class="session">Navegar por todas as seções</h1>
+                    </div>
+
+                    <div class="cards">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="footer">
         <section class="section-footer">
             <div>
