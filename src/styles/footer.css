@@ -1,0 +1,47 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0px 5px 5px 5px;
+}
+
+.section-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: linear-gradient(to right, #af08fc, #560dff, #0db6ff);
+    margin: 0px 10px 0px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.section-footer .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-footer .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.section-footer .section-footer__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 200px;
+}

@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MPTunes</title>
     <script src="https://kit.fontawesome.com/995459d116.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/sidebar.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
 </head>
 
 <body>
@@ -16,7 +18,7 @@
         <nav class="sidebar__navegation">
             <div class="logo">
                 <a href="">
-                    <img src="assets/icons/logo-MP Tunes.png" alt="logo do MPTunes">
+                    <img src="src/assets/icons/logo-MP Tunes.png" alt="logo do MPTunes">
                 </a>
             </div>
             <div>
@@ -24,49 +26,64 @@
                     <li>
                         <a href="">
                             <span>
-                                    <i class="fa-solid fa-house" style="color: #28FF0D;"></i>
+                                <i class="fa-solid fa-house" style="color: #28FF0D;"></i>
 
-                                </span>
+                            </span>
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
-                        <a href=""><span>
-                                <i class="fa-solid fa-magnifying-glass" style="color: #28FF0D;"></i>
-                            </span>
+                        <a href="">
+                            <span><i class="fa-solid fa-magnifying-glass" style="color: #28FF0D;"></i></span>
                             <span>Buscar</span>
                         </a>
 
                     </li>
                 </ul>
             </div>
-    </div>
-    </nav>
-    </div>
 
-    <div class="library">
-        <div class="library__itens">
-            <div class="my__library">
-                <a href="">
-                    <span>
-                    <i class="fa-solid fa-list" style="color: #28FF0D;"></i>
-    
-                </span>
+        </nav>
+
+        <div class="library">
+            <div class="library__itens">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
                     <span>Sua Biblioteca</span>
-
-                </a>
+                </button>
+                <span class="fa fa-plus"></span>
             </div>
 
-            <div class="add__library">
-                <a href="">
-                    <span>
-                    <i class="fa-solid fa-plus" style="color: #28FF0D;"></i>
-    
-                </span>
-                </a>
+            <section class="section-playList">
+                <div class="section-playList__content">
+                    <span class="text title">Crie sua primeira playList</span>
+                    <span class="text subtitle">É fácil, vamos te ajadar.</span>
+                    <button class="section-playList__button">
+                        <span>Criar playList</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                        <span class="fa fa-globe" style="color: #28FF0D;"></span>
+                        <span>Português do Brasil</span>
+                    </button>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <section class="section-footer">
+            <div>
+                <span class="text title">Teste o Premium de graça</span><br>
+                <span class="text subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúcios. Não precisa de cartão de crédito.</span>
+            </div>
+            <button class="section-footer__button ">
+            <span>Inscreva-se grátis</span>
+            </button>
+        </section>
+    </footer>
 </body>
 
 </html>
